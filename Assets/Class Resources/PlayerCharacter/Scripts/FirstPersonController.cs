@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -32,6 +33,9 @@ public class FirstPersonController : MonoBehaviour
     private bool isGrounded;
     private float cameraPitch = 0f;
     private bool isCursorLocked = true;
+
+    private bool didJump = false;
+
 
     private void Start()
     {
@@ -120,10 +124,18 @@ public class FirstPersonController : MonoBehaviour
 
     private void HandleJump()
     {
-        if (isGrounded && jumpAction != null && jumpAction.action.WasPressedThisFrame())
+        if (jumpAction.action.WasPressedThisFrame() && didJump == false)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            didJump = true;
+            StartCoroutine(JumpTimer());
         }
+    }
+
+    private IEnumerator JumpTimer()
+    {
+        yield return new WaitForSeconds(1f);
+        didJump = false;
     }
 
     private void OnEnable()
