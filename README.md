@@ -5,6 +5,7 @@ I edited the player so that the jumping speed is faster in the "First Person Con
 The previous delay between jumps made controlling the player feel unfair because it would not register jumps prior to the long delay.
 
 Links to Assets:
+  https://assetstore.unity.com/packages/2d/gui/icons/simple-modern-crosshairs-pack-1-79034
   https://polyhaven.com/a/hinoki_planks
   https://polyhaven.com/a/asphalt_04
   https://polyhaven.com/a/metal_grate_rusty
