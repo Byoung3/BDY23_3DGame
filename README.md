@@ -17,7 +17,6 @@ Links to Assets:
 
 Screenshots:
 <img width="442" height="406" alt="Screenshot 2026-10-03 192124" src="https://github.com/user-attachments/assets/c725f798-98a7-4eab-92e0-9ca4ad88d8fd" />
+<img width="1430" height="898" alt="Screenshot 2026-10-03 193810" src="https://github.com/user-attachments/assets/e23b8ee1-deae-494b-90f8-e8663b42bc0a" />
 <img width="1168" height="992" alt="Screenshot 2026-10-03 192538" src="https://github.com/user-attachments/assets/7bd73a73-1a3a-4406-b6a0-d2ffdbf7bbb6" />
 <img width="1220" height="852" alt="Screenshot 2026-10-03 192459" src="https://github.com/user-attachments/assets/cf99d0b4-78ee-4178-a782-a938386b3f81" />
-
-
